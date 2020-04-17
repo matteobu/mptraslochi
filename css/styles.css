@@ -1,0 +1,212 @@
+/*
+
+web desing by matteo bucciol
+
+email: bucciol.design@gmail.com
+
+*/
+/*  - - - - - - - - - - - - - -
+
+colors
+
+#f4d555
+#355f7c
+#42769a
+
+Footer
+#152630
+
+font family
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+- - - - - - - - - - - - - - - */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  margin-bottom: 0;
+}
+
+h6 {
+  margin-bottom: 0;
+  color: #355f7c;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.email-link:link {
+  color: white;
+}
+
+.email-link:visited {
+  color: white;
+}
+.email-link:hover {
+  color: #f4d555;
+}
+
+
+
+/* PRE NAV BAR SECTION */
+.col-email {
+  text-align: right;
+}
+
+.prenavbar {
+  background-color: #355f7c;
+  color: #fff;
+}
+
+.pre-nav-row {
+  padding: 10px 0;
+}
+
+
+
+/* NAVBAR SECTION  */
+#title {
+  background-color: #f4d555;
+  color: #355f7c;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  margin-left: 0;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.nav-link {
+  color: #355f7c;
+}
+
+/* MAIN PART SECTION */
+#intro-part {
+  background-color: #f4d555;
+  color: #355f7c;
+  padding: 4% 10% 0;
+}
+
+.title-img {
+  width: 100%;
+}
+
+.button-home {
+  box-shadow: 0px 10px 14px -7px #42769a;
+  background: linear-gradient(to bottom, #355f7c 5%, #42769a 100%);
+  background-color: #355f7c;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #42769a;
+}
+
+.button-home:hover {
+  background: linear-gradient(to bottom, #42769a 5%, #355f7c 100%);
+  background-color: #355f7c;
+}
+
+/* SERVICE PART */
+#services {
+  padding: 2% 15%;
+  position: relative;
+  background-color: #355f7c;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 10px 14px -7px #42769a;
+  color: #355f7c;
+  text-align: center;
+}
+
+.services-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #355f7c;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f4d555;
+}
+
+
+.subtitles-services {
+  margin-bottom: 50px;
+}
+
+.maintitles-services {
+  margin-top: 50px;
+}
+
+
+/* FOOTER PART */
+#footer {
+  padding: 4% 8%;
+  text-align: center;
+  color: #355f7c;
+  background-color: #152630;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+/* MEDIA SECTION */
+
+
+@media (max-width: 800px) {
+  .col-email {
+    text-align: center;
+  }
+
+  .col-phone {
+    text-align: center;
+  }
+  #intro-part {
+    text-align: center;
+    }
+
+
+
+}
